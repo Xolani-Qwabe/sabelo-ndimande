@@ -1,0 +1,33 @@
+- Tailwind
+
+{ 'timberwolf': { DEFAULT: '#D0C8C3', 100: '#2d2723', 200: '#5a4e47', 300: '#87756a', 400: '#ac9f96', 500: '#d0c8c3', 600: '#d9d3cf', 700: '#e3dedb', 800: '#ece9e7', 900: '#f6f4f3' }, 'cadet_gray': { DEFAULT: '#97A5A9', 100: '#1d2223', 200: '#3a4446', 300: '#586569', 400: '#75878c', 500: '#97a5a9', 600: '#adb7ba', 700: '#c1c9cb', 800: '#d6dbdd', 900: '#eaedee' }, 'midnight_green': { DEFAULT: '#16565D', 100: '#041213', 200: '#092326', 300: '#0d3539', 400: '#12464c', 500: '#16565d', 600: '#25929f', 700: '#40c4d2', 800: '#80d7e1', 900: '#bfebf0' }, 'raisin_black': { DEFAULT: '#201D21', 100: '#060606', 200: '#0d0c0d', 300: '#131113', 400: '#19171a', 500: '#201d21', 600: '#4e4750', 700: '#7c7180', 800: '#a8a0ab', 900: '#d3cfd5' }, 'air_force_blue': { DEFAULT: '#63888D', 100: '#141b1c', 200: '#273739', 300: '#3b5255', 400: '#4f6d71', 500: '#63888d', 600: '#7fa2a6', 700: '#9fb9bd', 800: '#bfd0d3', 900: '#dfe8e9' } }
+
+- CSV
+
+D0C8C3,97A5A9,16565D,201D21,63888D
+
+- With #
+
+#D0C8C3, #97A5A9, #16565D, #201D21, #63888D
+
+- Array
+
+["D0C8C3","97A5A9","16565D","201D21","63888D"]
+
+- Object
+
+{"Timberwolf":"D0C8C3","Cadet gray":"97A5A9","Midnight green":"16565D","Raisin black":"201D21","Air Force blue":"63888D"}
+
+- Extended Array
+
+[{"name":"Timberwolf","hex":"D0C8C3","rgb":[208,200,195],"cmyk":[0,4,6,18],"hsb":[23,6,82],"hsl":[23,12,79],"lab":[81,2,3]},{"name":"Cadet gray","hex":"97A5A9","rgb":[151,165,169],"cmyk":[11,2,0,34],"hsb":[193,11,66],"hsl":[193,9,63],"lab":[67,-4,-4]},{"name":"Midnight green","hex":"16565D","rgb":[22,86,93],"cmyk":[76,8,0,64],"hsb":[186,76,36],"hsl":[186,62,23],"lab":[33,-17,-10]},{"name":"Raisin black","hex":"201D21","rgb":[32,29,33],"cmyk":[3,12,0,87],"hsb":[285,12,13],"hsl":[285,6,12],"lab":[11,2,-2]},{"name":"Air Force blue","hex":"63888D","rgb":[99,136,141],"cmyk":[30,4,0,45],"hsb":[187,30,55],"hsl":[187,18,47],"lab":[54,-12,-7]}]
+
+- XML
+
+<palette>
+  <color name="Timberwolf" hex="D0C8C3" r="208" g="200" b="195" />
+  <color name="Cadet gray" hex="97A5A9" r="151" g="165" b="169" />
+  <color name="Midnight green" hex="16565D" r="22" g="86" b="93" />
+  <color name="Raisin black" hex="201D21" r="32" g="29" b="33" />
+  <color name="Air Force blue" hex="63888D" r="99" g="136" b="141" />
+</palette>
